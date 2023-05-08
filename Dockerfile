@@ -1,4 +1,4 @@
-# Використовуємо офіційний образ Nginx з Docker Hub як базовий образ
+# Використовуємо офіційний образ Nginx з Docker Hub як базовий образ nginx
 FROM nginx:latest
 RUN apt-get update && apt-get install -y procps
 
